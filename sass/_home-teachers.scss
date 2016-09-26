@@ -1,0 +1,106 @@
+.teachers{
+
+	background:#fffae0;
+	padding:10% 5%;
+	background-repeat: repeat;
+	h2{
+		text-align: center;
+		padding-bottom:2%;
+		letter-spacing: 4px;
+		color:#51CDB5;
+	}
+
+	.teachers-section{
+		display:flex;
+		flex-wrap:wrap;
+		align-items:center;
+		.teachers-content{
+			width:50%;
+			padding:0 5%;
+			h3{
+			    color: #191953;
+			    text-transform: uppercase;
+			    font-size: 22px;
+			    letter-spacing: 2px;
+			    font-weight:600;
+			    margin:0;
+			    padding-bottom:30px;
+			}
+			
+			p{
+				margin:0;
+				color: #3c4a54;
+				font-size: 20px;
+			}
+		}
+		.teachers-image{
+			width:50%;
+			img{
+				display: block;
+				margin:0 auto;
+			}
+		}
+		.teachers1 {
+			text-align: left;
+		}
+		.teachers2 {
+			text-align:left;
+		}
+	}
+	.bottom{
+	
+	}
+	.top-teacher{
+		padding-bottom:5%;
+		flex-direction: row-reverse; 
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.teachers .teachers-section .teachers-content {
+	    width: 100%;
+	    padding-bottom: 5%;
+	}
+	.teachers .teachers-section .teachers1, .teachers .teachers-section .teachers2 {
+	    text-align: center;
+	}
+	.teachers .teachers-section .teachers-image {
+	    width: 100%;
+	}
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.teachers h2 {
+	    font-size: 24px;
+	}
+	.teachers .teachers-section .teachers-content h3 {
+	    font-size: 18px;
+	}
+	.teachers .teachers-section .teachers-content h4 {
+	    font-size: 16px;
+	}
+	.teachers .teachers-section .teachers-content p {
+	    font-size: 16px;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

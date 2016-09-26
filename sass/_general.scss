@@ -1,0 +1,77 @@
+
+
+h1, h2{
+	font-family: "ashleybrushscript", sans-serif;
+	margin:0;
+}
+h2{
+	text-align: center;
+	color: #191953;
+	font-size: 40px;
+	margin:0;
+}
+h3, h4, p{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+}
+p{
+	color:#3c4a54;
+	line-height: 1.5;
+}
+
+.body-wrapper{
+    max-width: 1200px;
+    margin:0 auto ;
+    display: block;
+}
+
+hr{
+	display: block;
+	margin: 1% auto 4%;
+	border: 1px solid #FFE765;
+	width: 18%;
+	-webkit-transition: width 1s ease;
+	transition: width 1s ease;
+
+}
+.top{
+	margin-top:75px;
+}
+.error{
+	padding:10%;
+	background:#fffae0;
+	h1{
+		text-align: center;
+	}
+	p{
+		text-align: center;
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,112 @@
+.testimonial-wrapper{
+	position:relative;
+	.filter{
+		background: rgba(0, 0, 0,.4);
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		position:absolute;
+		z-index:999;
+	}
+}
+
+.testimonials{
+	position:relative;
+
+	h2{
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		color:white;
+		padding:5%;
+		letter-spacing: 4px;
+		z-index: 1001;
+		color:#FFE765;
+		margin-bottom: 15px;
+	}
+	.carousel-cell{
+		width:100%;
+		text-align: center;
+
+		p{
+			margin: 0;
+			color:white;
+			line-height: 2;
+			font-size: 20px;
+			max-width: 500px;
+			margin:0 auto;
+		}
+		.name{
+			padding-top:20px;
+			font-weight: 600;
+		}
+	}
+	.quote-carousel{
+		width:100%;
+		position:relative;
+		top:60%;
+		bottom:0;
+		right:0;
+		left:0;
+		transform: translateY(-50%);
+		z-index: 1001;
+		padding:5% 0;
+	}
+}
+
+
+.gallery-background {
+	background-attachment: fixed;
+	height:500px;
+	width:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.gallery-background {
+	    background-attachment: inherit;
+	}
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.gallery-background {
+	    height: 400px;
+	}
+}
+
+@media all and (max-width: 667px) {
+	
+	.testimonials .carousel-cell p {
+	    font-size: 16px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.testimonials h2 {
+		font-size: 24px;
+	}
+	.testimonials .testimonials-quote {
+	    font-size: 16px;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

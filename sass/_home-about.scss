@@ -1,0 +1,116 @@
+.about{
+	padding:10% 5%;
+	background:#DCF5F0;
+	h1{
+		text-align: center;
+		color:#191953;
+		font-size: 40px;
+		letter-spacing: 4px;
+	}
+	.about-description{
+		text-align: center;
+		color: #3c4a54;
+		font-weight: 400;
+		margin-bottom:5%;
+		font-size: 22px;
+    	line-height: 2;
+	}
+	.topics-container{
+		display:flex;
+		padding: 0;
+		flex-wrap:wrap;
+		.topics-box{
+			width:25%;
+			.topics-image{
+				width:35%;
+				margin:0 auto;
+				display: block;
+				img{
+					margin:0 auto;
+					display:block;
+				}
+			}
+			
+			p{
+				text-align: center;
+				color:#191953;
+				font-size: 22px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-weight: 700;	
+			}
+		}
+		
+	}
+	.button{ 
+		text-decoration: none;
+		color:#191953;
+		padding:5% 0;
+		p {
+		    width: 200px;
+		    border: 2px solid #51CDB5;
+		    margin: 0 auto;
+		    font-size: 16px;
+		    transition: all .5s ease-in-out;
+		    line-height: 280%;
+		    text-align: center;
+		    text-transform: uppercase;
+		    margin: 5% auto 0;
+		    font-weight: 600;
+		    letter-spacing: 3px;
+
+		}
+	}
+}
+
+.about .button p:hover {
+    background: #51CDB5;
+   	transform: scale(1.1);
+}
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.about .topics-container .topics-box {
+	    width: 100%;
+	}
+	.about .topics-container .topics-box .topics-image {
+		width: 25%;
+		margin: 0 auto;
+	}
+	.about .topics-container {
+	    display: block;
+	    margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.about h1 {
+	    font-size: 24px;
+	}
+	.about .about-description {
+	    font-size: 14px;
+	}
+	.about .topics-container .topics-box p {
+	    font-size: 16px;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,137 @@
+
+.hero{
+	width:100%;
+    margin-top:75px;
+	.hero-gallery{
+		width:100%;
+		height:600px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+}
+.hero-wrapper{
+	position:relative;
+
+	.hero-filter{
+		background: rgba(0, 0, 0, 0.3);
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		position:absolute;
+		z-index:999;
+	}
+	img{
+		display:block;
+		margin:0 auto;
+	}
+	.hero-content{
+		position:absolute;
+		top:50%;
+		bottom:0;
+		right:0;
+		left:0;
+		z-index:999;
+		transform: translateY(-50%);
+	    margin: 0 auto;
+		
+		h1{
+			text-align: center;
+			color:#191953;
+			color:white;
+			font-size: 60px;
+			letter-spacing: 10px;
+			margin:0;
+		}
+		hr{
+			display: block;
+			margin: 0 auto;
+			border: 1px solid #FFE765;
+			width: 18%;
+			-webkit-transition: width 1s ease;
+			transition: width 1s ease;
+
+		}
+		h2{
+			text-align:center;
+			color:#51CDB5;
+			color:white;
+			margin: 3%;
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			letter-spacing: 2px;
+			line-height: 1.5;
+			max-width: 300px;
+			margin: 0 auto;
+			margin-top:4%;
+		}
+		.fa{
+			font-size: 40px;
+			color: white;
+			text-align: center;
+			margin:0 auto;
+			display: block;
+			padding-top:3%;
+		}
+	}
+}
+.flickity-prev-next-button {
+    z-index: 1007;
+}
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+	
+	
+}
+@media all and (max-width: 1024px) { 
+	.hero .gallery-cell .hero-content h1 {
+	    font-size: 35px;
+	}
+	.hero .hero-gallery .hero-content h1 {
+	    font-size: 40px;
+	}
+}
+@media all and (max-width: 940px) { 
+	
+}
+
+@media all and (max-width: 768px) {
+	.hero-wrapper .hero-content h1 {
+	    font-size: 40px;
+	}
+	.hero .hero-gallery {
+	    height: 450px;
+	}
+}
+
+@media all and (max-width: 667px) {
+	.hero .hero-gallery .hero-content h1 {
+	    font-size: 30px;
+	}
+	.hero-wrapper .hero-content h1 {
+    	font-size: 20px;
+	}
+	.hero-wrapper .hero-content h2 {
+	    font-size: 15px;
+
+	}
+}
+
+@media all and (max-width: 480px) {
+
+	.hero .gallery-cell .hero-content h1 {
+	    font-size: 25px;
+	}
+	.hero .gallery-cell .hero-content h2 {
+	    font-size: 18px;
+	}
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
